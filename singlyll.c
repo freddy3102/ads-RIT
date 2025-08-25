@@ -130,13 +130,12 @@ void search()
         if(temp->data==s)
         {
             flag=1;
+            printf("\nelement %d is found at position %d",s,pos);
         }
         pos++;
         temp=temp->next;
     }
-    if(flag==1)
-    printf("\nelement %d is found at position %d",s,pos);
-    else
+    if(flag==0)
     printf("element not found");
     
 }
@@ -170,4 +169,5 @@ void main()
             default: printf("Invalid choice");
 }
 }
+
 }

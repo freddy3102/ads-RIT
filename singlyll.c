@@ -130,7 +130,7 @@ void search()
         if(temp->data==s)
         {
             flag=1;
-            printf("\nelement %d is found at position %d",s,pos);
+            printf("element %d is found at position %d\n",s,pos);
         }
         pos++;
         temp=temp->next;
@@ -171,3 +171,4 @@ void main()
 }
 
 }
+
